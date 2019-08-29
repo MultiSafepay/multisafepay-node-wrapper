@@ -1,5 +1,5 @@
 const express = require('express');
-const MSP = require('@multisafepay/api-wrapper-test').default;
+const MSP = require('@multisafepay/api-wrapper').default;
 const app = express();
 const port = 3000;
 
