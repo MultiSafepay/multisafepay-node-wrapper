@@ -1,0 +1,118 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": "IDEAL",
+            "description": "iDEAL"
+        },
+        {
+            "id": "MISTERCASH",
+            "description": "Bancontact"
+        },
+        {
+            "id": "VISA",
+            "description": "Visa"
+        },
+        {
+            "id": "MAESTRO",
+            "description": "Maestro"
+        },
+        {
+            "id": "PAYPAL",
+            "description": "PayPal"
+        },
+        {
+            "id": "DOTPAY",
+            "description": "DotPay"
+        },
+        {
+            "id": "GIROPAY",
+            "description": "Giropay"
+        },
+        {
+            "id": "EPS",
+            "description": "EPS"
+        },
+        {
+            "id": "MASTERCARD",
+            "description": "MasterCard"
+        },
+        {
+            "id": "BANKTRANS",
+            "description": "Wire Transfer"
+        },
+        {
+            "id": "AMEX",
+            "description": "American Express"
+        },
+        {
+            "id": "DIRDEB",
+            "description": "Direct Debit"
+        },
+        {
+            "id": "DIRECTBANK",
+            "description": "SOFORT Banking"
+        },
+        {
+            "id": "INGHOME",
+            "description": "ING HomePay"
+        },
+        {
+            "id": "PAYAFTER",
+            "description": "Pay After Delivery"
+        },
+        {
+            "id": "JCB",
+            "description": "JCB"
+        },
+        {
+            "id": "SANTANDER",
+            "description": "Santander"
+        },
+        {
+            "id": "KLARNA",
+            "description": "Klarna"
+        },
+        {
+            "id": "TRUSTLY",
+            "description": "Trustly"
+        },
+        {
+            "id": "ALIPAY",
+            "description": "Alipay"
+        },
+        {
+            "id": "EINVOICE",
+            "description": "Einvoice"
+        },
+        {
+            "id": "BELFIUS",
+            "description": "Belfius"
+        },
+        {
+            "id": "PAYINADV",
+            "description": "Pay In Advance"
+        },
+        {
+            "id": "IDEALQR",
+            "description": "iDEAL QR"
+        },
+        {
+            "id": "PAYAFTB2B",
+            "description": "Pay After Delivery B2B"
+        },
+        {
+            "id": "KBC",
+            "description": "KBC"
+        },
+        {
+            "id": "AFTERPAY",
+            "description": "AfterPay"
+        },
+        {
+            "id": "FIETSENBON",
+            "description": "fietsenbon",
+            "type": "coupon"
+        }
+    ]
+}

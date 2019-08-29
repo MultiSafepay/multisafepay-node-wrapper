@@ -1,0 +1,9 @@
+{
+  "message": {
+    "success": true,
+    "data": {
+      "id": "PAYAFTER",
+      "description": "Pay After Delivery"
+    }
+  }
+}

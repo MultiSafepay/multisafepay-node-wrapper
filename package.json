@@ -1,0 +1,54 @@
+{
+  "name": "@multisafepay/api-wrapper",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "license": "MIT"
+    }
+  ],
+  "description": "Official MultiSafepay wrapper for Nodejs",
+  "main": "dist/multisafepay",
+  "types": "dist/multisafepay",
+  "module": "dist/lib-esm/src/multisafepay.js",
+  "engines": {
+    "node": ">=8.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MultiSafepay/multisafepay-node-wrapper"
+  },
+  "keywords": [
+    "multisafepay",
+    "nodjse",
+    "api",
+    "wrapper"
+  ],
+  "bugs": {
+    "url": "https://github.com/MultiSafepay/multisafepay-node-wrapper/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Raúl Mena <raul.mena@multisafepay.com>",
+  "scripts": {
+    "test": "jest --forceExit --coverage --verbose",
+    "build": "rm -Rf dist && tsc && tsc -m es6 --outDir dist/lib-esm && webpack"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.2",
+    "axios-mock-adapter": "^1.17.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.4",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}

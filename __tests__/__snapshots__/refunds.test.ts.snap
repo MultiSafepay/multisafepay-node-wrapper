@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`refunds create refund 1`] = `
+Object {
+  "data": Object {
+    "refund_id": 3326969,
+    "transaction_id": 3326965,
+  },
+  "success": true,
+}
+`;

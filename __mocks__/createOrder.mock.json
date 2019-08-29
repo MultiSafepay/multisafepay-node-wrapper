@@ -1,0 +1,32 @@
+{
+  "type": "redirect",
+  "order_id": "my-order-id-1c",
+  "gateway": "",
+  "currency": "EUR",
+  "amount": "1000",
+  "description": "Test Order Description",
+  "payment_options": {
+    "notification_url": "http://www.example.com/client/notification?type=notification",
+    "redirect_url": "http://www.example.com/client/notification?type=redirect",
+    "cancel_url": "http://www.example.com/client/notification?type=cancel",
+    "close_window": ""
+  },
+  "customer": {
+    "locale": "nl_NL",
+    "ip_address": "89.20.162.110",
+    "first_name": "Testperson-nl",
+    "last_name": "Approved",
+    "address1": "Kraanspoor",
+    "house_number": "39C",
+    "zip_code": "1033SC",
+    "city": "Amsterdam",
+    "country": "NL",
+    "phone": "0208500500",
+    "email": "test@example.com",
+    "referrer": "http://test.com",
+    "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
+  },
+  "second_chance": {
+    "send_email": true
+  }
+}

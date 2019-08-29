@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`issuers get ideal with success 1`] = `
+Object {
+  "message": Object {
+    "data": Array [
+      Object {
+        "code": "3151",
+        "description": "Test bank",
+      },
+      Object {
+        "code": "0031",
+        "description": "ABN AMRO",
+      },
+      Object {
+        "code": "0751",
+        "description": "SNS Bank",
+      },
+      Object {
+        "code": "0721",
+        "description": "ING",
+      },
+      Object {
+        "code": "0021",
+        "description": "Rabobank",
+      },
+      Object {
+        "code": "0761",
+        "description": "ASN Bank",
+      },
+      Object {
+        "code": "0771",
+        "description": "Regio Bank",
+      },
+      Object {
+        "code": "0511",
+        "description": "Triodos Bank",
+      },
+      Object {
+        "code": "0161",
+        "description": "Van Lanschot Bankiers",
+      },
+      Object {
+        "code": "0801",
+        "description": "Knab",
+      },
+      Object {
+        "code": "4371",
+        "description": "bunq",
+      },
+      Object {
+        "code": "1234",
+        "description": "Moneyou",
+      },
+      Object {
+        "code": "1235",
+        "description": "Handelsbanken",
+      },
+    ],
+    "success": true,
+  },
+}
+`;

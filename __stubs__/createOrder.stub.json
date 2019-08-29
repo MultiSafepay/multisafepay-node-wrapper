@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "data": {
+    "order_id": "my-order-id-1c",
+    "payment_url": "https://testpayv2.multisafepay.com/connect/99iKkjUhWwGD03IgvxurNMUgVDYDPNpghWx/?lang=nl_NL"
+  }
+}

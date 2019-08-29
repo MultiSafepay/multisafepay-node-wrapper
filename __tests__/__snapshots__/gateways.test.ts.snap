@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gateways get all gateways 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "description": "iDEAL",
+      "id": "IDEAL",
+    },
+    Object {
+      "description": "Bancontact",
+      "id": "MISTERCASH",
+    },
+    Object {
+      "description": "Visa",
+      "id": "VISA",
+    },
+    Object {
+      "description": "Maestro",
+      "id": "MAESTRO",
+    },
+    Object {
+      "description": "PayPal",
+      "id": "PAYPAL",
+    },
+    Object {
+      "description": "DotPay",
+      "id": "DOTPAY",
+    },
+    Object {
+      "description": "Giropay",
+      "id": "GIROPAY",
+    },
+    Object {
+      "description": "EPS",
+      "id": "EPS",
+    },
+    Object {
+      "description": "MasterCard",
+      "id": "MASTERCARD",
+    },
+    Object {
+      "description": "Wire Transfer",
+      "id": "BANKTRANS",
+    },
+    Object {
+      "description": "American Express",
+      "id": "AMEX",
+    },
+    Object {
+      "description": "Direct Debit",
+      "id": "DIRDEB",
+    },
+    Object {
+      "description": "SOFORT Banking",
+      "id": "DIRECTBANK",
+    },
+    Object {
+      "description": "ING HomePay",
+      "id": "INGHOME",
+    },
+    Object {
+      "description": "Pay After Delivery",
+      "id": "PAYAFTER",
+    },
+    Object {
+      "description": "JCB",
+      "id": "JCB",
+    },
+    Object {
+      "description": "Santander",
+      "id": "SANTANDER",
+    },
+    Object {
+      "description": "Klarna",
+      "id": "KLARNA",
+    },
+    Object {
+      "description": "Trustly",
+      "id": "TRUSTLY",
+    },
+    Object {
+      "description": "Alipay",
+      "id": "ALIPAY",
+    },
+    Object {
+      "description": "Einvoice",
+      "id": "EINVOICE",
+    },
+    Object {
+      "description": "Belfius",
+      "id": "BELFIUS",
+    },
+    Object {
+      "description": "Pay In Advance",
+      "id": "PAYINADV",
+    },
+    Object {
+      "description": "iDEAL QR",
+      "id": "IDEALQR",
+    },
+    Object {
+      "description": "Pay After Delivery B2B",
+      "id": "PAYAFTB2B",
+    },
+    Object {
+      "description": "KBC",
+      "id": "KBC",
+    },
+    Object {
+      "description": "AfterPay",
+      "id": "AFTERPAY",
+    },
+    Object {
+      "description": "fietsenbon",
+      "id": "FIETSENBON",
+      "type": "coupon",
+    },
+  ],
+  "success": true,
+}
+`;
+
+exports[`gateways get gateways by ID ex:IDEAL 1`] = `
+Object {
+  "message": Object {
+    "data": Object {
+      "description": "Pay After Delivery",
+      "id": "PAYAFTER",
+    },
+    "success": true,
+  },
+}
+`;

@@ -1,0 +1,59 @@
+{
+  "message": {
+    "success": true,
+    "data": [
+      {
+        "code": "3151",
+        "description": "Test bank"
+      },
+      {
+        "code": "0031",
+        "description": "ABN AMRO"
+      },
+      {
+        "code": "0751",
+        "description": "SNS Bank"
+      },
+      {
+        "code": "0721",
+        "description": "ING"
+      },
+      {
+        "code": "0021",
+        "description": "Rabobank"
+      },
+      {
+        "code": "0761",
+        "description": "ASN Bank"
+      },
+      {
+        "code": "0771",
+        "description": "Regio Bank"
+      },
+      {
+        "code": "0511",
+        "description": "Triodos Bank"
+      },
+      {
+        "code": "0161",
+        "description": "Van Lanschot Bankiers"
+      },
+      {
+        "code": "0801",
+        "description": "Knab"
+      },
+      {
+        "code": "4371",
+        "description": "bunq"
+      },
+      {
+        "code": "1234",
+        "description": "Moneyou"
+      },
+      {
+        "code": "1235",
+        "description": "Handelsbanken"
+      }
+    ]
+  }
+}

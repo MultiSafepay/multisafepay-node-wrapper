@@ -1,0 +1,12 @@
+src/
+examples/
+coverage/
+.gitignore
+tsconfig.json
+jest.config.js
+tslint.json
+webpack.config.js
+__tests__
+__mocks__
+__stubs__
+.prettierrc

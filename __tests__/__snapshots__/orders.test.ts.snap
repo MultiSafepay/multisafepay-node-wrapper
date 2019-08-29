@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`orders create order 1`] = `
+Object {
+  "data": Object {
+    "order_id": "my-order-id-1c",
+    "payment_url": "https://testpayv2.multisafepay.com/connect/99iKkjUhWwGD03IgvxurNMUgVDYDPNpghWx/?lang=nl_NL",
+  },
+  "success": true,
+}
+`;
+
+exports[`orders update order 1`] = `
+Object {
+  "data": Object {},
+  "success": true,
+}
+`;
