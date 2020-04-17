@@ -126,7 +126,7 @@ multiSafePayClient.orders
 
 ```
 
-Click [here](https://github.com/MultiSafepay/multisafepay-node-wrapper/tree/master/multisafepay/examples) for more examples.
+Click [here](https://github.com/MultiSafepay/multisafepay-node-wrapper/tree/master/examples) for more examples.
 
 ## Support
 
