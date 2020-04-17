@@ -1,14 +1,14 @@
 {
   "name": "@multisafepay/api-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "licenses": [
     {
       "license": "MIT"
     }
   ],
   "description": "Official MultiSafepay wrapper for Nodejs",
-  "main": "dist/multisafepay",
-  "types": "dist/multisafepay",
+  "main": "dist/src/multisafepay.js",
+  "types": "dist/src/multisafepay.d.ts",
   "module": "dist/lib-esm/src/multisafepay.js",
   "engines": {
     "node": ">=8.1.1"
