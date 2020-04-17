@@ -1,4 +1,6 @@
+import { version } from '../package.json';
 import { ErrorKeys, ErrorResponse } from './typings/error';
+
 export default abstract class Resource {
   protected readonly client: any;
   protected readonly endpoint: string;
@@ -24,7 +26,7 @@ export default abstract class Resource {
     try {
       const url =
         id === undefined ? `${this.endpoint}` : `${this.endpoint}/${id}`;
-      const response = await this.client.get(`${url}`);
+      const response = await this.client.get(`${url}`, this.addPluginData({}));
       return response.data;
     } catch (err) {
       return Resource.exceptionHandle(err);
@@ -33,7 +35,10 @@ export default abstract class Resource {
 
   async create(data?: any) {
     try {
-      const response = await this.client.post(`${this.endpoint}`, data);
+      const response = await this.client.post(
+        `${this.endpoint}`,
+        this.addPluginData(data),
+      );
       return response.data;
     } catch (err) {
       return Resource.exceptionHandle(err);
@@ -42,10 +47,22 @@ export default abstract class Resource {
 
   async update(id: string, data?: any) {
     try {
-      const response = await this.client.patch(`${this.endpoint}/${id}`, data);
+      const response = await this.client.patch(
+        `${this.endpoint}/${id}`,
+        this.addPluginData(data),
+      );
       return response.data;
     } catch (err) {
       return Resource.exceptionHandle(err);
     }
+  }
+
+  private addPluginData(data: any) {
+    data.plugin = {
+      shop: 'multisafepay-node-wrapper',
+      plugin_version: version,
+      partner: 'MultiSafepay',
+    };
+    return data;
   }
 }
