@@ -128,18 +128,23 @@ multiSafePayClient.orders
 
 Click [here](https://github.com/MultiSafepay/multisafepay-node-wrapper/tree/master/examples) for more examples.
 
-## Support
-
-If you have any issues, problems or questions you can create an issue on this repository or contact us at <a href="mailto:integrationt@multisafepay.com">integration@multisafepay.com</a>
-
-## Mistakes and improvements
-
-If you spot mistakes or want to contribute in improving this wrapper, feel free to [create pull requests](https://github.com/MultiSafepay/multisafepay-node-wrapper/pulls)
-
 ## API Documentation
 
 [Click here](https://docs.multisafepay.com/api/) for the MultiSafepay API documentation.
 
+## Support
+
+If you have any issues, problems or questions you can create an issue on this repository or contact us at <a href="mailto:integrationt@multisafepay.com">integration@multisafepay.com</a>
+
+## A gift for your contribution
+We look forward to receiving your input. Have you seen an opportunity to change things for better? We would like to invite you to create a pull request on GitHub.
+Are you missing something and would like us to fix it? Suggest an improvement by sending us an [email](mailto:integration@multisafepay.com) or by creating an issue.
+
+What will you get in return? A brand new designed MultiSafepay t-shirt which will make you part of the team!
+
 ## License
 
 [MIT License](https://github.com/MultiSafepay/multisafepay-node-wrapper/blob/master/LICENSE)
+
+## Want to be part of the team?
+Are you a developer interested in working at MultiSafepay? [View](https://www.multisafepay.com/careers/#jobopenings) our job openings and feel free to get in touch with us.
