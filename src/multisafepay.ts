@@ -23,7 +23,7 @@ export default class MultiSafepayClient {
   static baseURL: BaseUrl;
   constructor(apiKey: string, options?: Options) {
     this.existsApiKey(apiKey);
-    this.setEnviorement(options);
+    this.setEnvironment(options);
     this.apiKey = apiKey;
     this.gateways = new Gateways(this.createClient());
     this.orders = new Orders(this.createClient());
@@ -50,7 +50,7 @@ export default class MultiSafepayClient {
     }
   }
 
-  setEnviorement(options: Options) {
+  setEnvironment(options: Options) {
     if (
       options !== undefined &&
       options.hasOwnProperty(Keys.ENVIRONMENT) &&
