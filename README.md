@@ -1,19 +1,19 @@
 <p align="center">
-  <img src="https://www.multisafepay.com/img/multisafepaylogo.svg" width="400px" position="center">
+    <img src="https://camo.githubusercontent.com/517483ae0eaba9884f397e9af1c4adc7bbc231575ac66cc54292e00400edcd10/68747470733a2f2f7777772e6d756c7469736166657061792e636f6d2f66696c6561646d696e2f74656d706c6174652f696d672f6d756c7469736166657061792d6c6f676f2d69636f6e2e737667" width="400px" position="center">
 </p>
 
 # Node.js wrapper for the MultiSafepay API
 
-This wrapper simplifies working with the MultiSafepay API and allows you to integrate MultiSafepay within your Node.js application.
+This wrapper simplifies working with the MultiSafepay API and lets you integrate MultiSafepay in your Node.js application.
 
 ## About MultiSafepay
 
-MultiSafepay is a collecting payment service provider which means we take care of the agreements, technical details and payment collection required for each payment method. You can start selling online today and manage all your transactions from one place.
+MultiSafepay is a Dutch payment service provider, which takes care of contracts, processing transactions, and collecting payment for a range of local and international payment methods. Start selling online today and manage all your transactions in one place!
 
 ## Requirements
 
-- To use the wrapper you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
-- If you’re using Node 8.0+ we recommend to use async/await if it is a older versions of Node, you can use promises or callbacks instead of async/await.
+- You will need a MultiSafepay account. Consider [creating a test account](https://testmerchant.multisafepay.com/signup) first.
+- If using Node 8.0+, we recommend using async/await. For older versions of Node, use promises or callbacks instead of async/await.
 
 ## Installation
 
@@ -31,34 +31,30 @@ yarn add @multisafepay/api-wrapper
 
 ## Usage
 
-Setup the client for testing with **ES6 imports**
+Set up the client for testing with **ES6 imports**:
 
 ```javascript
 import MSPClient from '@multisafepay/api-wrapper';
 const client = new MSPClient('apiKey');
 ```
 
-With **require module**
+With **require module**:
 
 ```javascript
 const MSPClient = require('@multisafepay/api-wrapper').default;
 const client = new MSPClient('apiKey');
 ```
 
-
->Currently we are working to add typescript support
-
-
-If you want to use test env if not by default is live
+To use the test environment:
 
 ```javascript
 const client = new MSPClient('apiKey', { environment: 'test' });
 ```
 
-Creating a test order with **async/await**
+Create a test order with **async/await**:
 
 ```javascript
-# The following code will create a redirect iDEAL order
+# This code creates a redirect iDEAL order
 async () => {
   try {
     const multiSafePayClient = new MSPClient(apiKey, { environment: 'test' });
@@ -91,10 +87,10 @@ async () => {
 };
 ```
 
-With **promises**
+With **promises**:
 
 ```javascript
-# The following code will create a redirect iDEAL order
+# This code creates a redirect iDEAL order
 multiSafePayClient.orders
   .create({
     type: 'redirect',
@@ -126,19 +122,19 @@ multiSafePayClient.orders
 
 ```
 
-Click [here](https://github.com/MultiSafepay/multisafepay-node-wrapper/tree/master/examples) for more examples.
+See [more examples](https://github.com/MultiSafepay/multisafepay-node-wrapper/tree/master/examples).
 
 ## Support
 
-If you have any issues, problems or questions you can create an issue on this repository or contact us at <a href="mailto:integrationt@multisafepay.com">integration@multisafepay.com</a>
+Create an issue on this repository or email <a href="mailto:integrationt@multisafepay.com">integration@multisafepay.com</a>
 
-## Mistakes and improvements
+## Contributions
 
-If you spot mistakes or want to contribute in improving this wrapper, feel free to [create pull requests](https://github.com/MultiSafepay/multisafepay-node-wrapper/pulls)
+Feel free to [create a pull request](https://github.com/MultiSafepay/multisafepay-node-wrapper/pulls) on this repository to suggest improvements.
 
-## API Documentation
+## API reference
 
-[Click here](https://docs.multisafepay.com/api/) for the MultiSafepay API documentation.
+See MultiSafepay Docs – [API reference](https://docs.multisafepay.com/api/).
 
 ## License
 
